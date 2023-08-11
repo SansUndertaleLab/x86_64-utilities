@@ -139,7 +139,6 @@ input:
     mov rdi, 0
     mov rsi, qword [rbp - 8]
     mov rdx, qword [rbp - 16]
-    dec rdx
     syscall
 
     mov qword [rbp - 24], rax
